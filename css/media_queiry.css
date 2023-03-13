@@ -1,0 +1,104 @@
+@media screen and (max-width:1000px) {
+    body {
+        overflow: hidden;
+    }
+
+    header {
+        overflow: hidden;
+    }
+
+    .slide {
+        grid-template-columns: 25% 25% 25% 25%;
+        overflow: hidden;
+        height: 38vh;
+    }
+
+    .slide0 {
+        overflow: hidden;
+        height: 30vh;
+        margin: 0px 0px 110px;
+    }
+
+    .logo {
+        overflow: hidden;
+        height: 39px;
+        width: 100px;
+        margin: 15px 5px;
+    }
+
+    .search input {
+        width: 90px;
+        height: 15px;
+
+    }
+
+    .search {
+        margin: 0px 0px 0px 10px;
+    }
+
+    .btn {
+        width: 38px;
+        font-size: 10px;
+        padding: 0px 2px;
+        border-radius: 2px;
+        font-family: monospace;
+    }
+
+    nav {
+        overflow: hidden;
+    }
+
+    nav ul {
+
+        height: 66px;
+        padding: 0px 0px;
+        margin: 9px 0px 0px -64px;
+    }
+
+    nav ul li {
+        padding: 4px;
+        font-size: 11px;
+    }
+
+    .option ul li {
+        font-size: 9px;
+        padding: 0px 2px 14px;
+    }
+
+
+    .boxu {
+        height: 30vh;
+        width: 24vw;
+    }
+
+    .boxl {
+        height: 6vh;
+        width: 9vw;
+        margin: 10px;
+    }
+
+    .boxl img {
+        height: inherit;
+        width: inherit;
+    }
+
+    .info {
+        font-size: 13px;
+        height: 9vh;
+        width: 20vw;
+    }
+
+    .box0 {
+        height: 24vh;
+        width: 17vw;
+    }
+
+    .box0 img {
+        height: 8vh;
+        width: 17vw;
+    }
+
+    footer {
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,46 @@
+.copy {
+    text-align: center;
+}
+
+.btn {
+    color: white;
+    background-color: var(--main-bg-color);
+    padding: 0px 5px;
+    border: white solid 1px;
+    border-radius: 5px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.btn:hover {
+    font-weight: bolder;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    color: white;
+    background-color: #232F3E;
+}
+
+.option ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.option ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.option ul li {
+    padding: 0px 13px 26px;
+}
+
+.option ul li a:hover {
+    color: wheat;
+    font-weight: bolder;
+    text-decoration: none;
+}
